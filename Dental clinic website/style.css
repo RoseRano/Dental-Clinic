@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background: url('dental-bg.jpg') no-repeat center center/cover;
+  }
+  
+  i.bi {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #222;
+  }
+
+  
+  
+  /* For tablets and below */
+@media (max-width: 768px) {
+    .custom-class {
+      font-size: 16px;
+      padding: 10px;
+    }
+  }
+  
+  /* For mobile phones */
+  @media (max-width: 576px) {
+    .custom-class {
+      font-size: 14px;
+      padding: 5px;
+    }
+  }
+  
